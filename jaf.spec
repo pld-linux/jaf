@@ -13,7 +13,7 @@ Requires:	jre >= 1.1.6
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
-%define		_javalibdir	/usr/share/java
+%define		_javalibdir	%{_datadir}/java
 
 %description
 JavaBeans (tm) Activation Framework.
