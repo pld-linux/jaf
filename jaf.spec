@@ -5,7 +5,7 @@ Version:	1.0.2
 Release:	1
 License:	restricted (see LICENSE.txt)
 Group:		Development/Languages/Java
-Source0:	%{name}-1_0_2.zip
+Source0:	%{name}-1_0_2-upd.zip
 NoSource:	0
 URL:		http://java.sun.com/products/javabeans/glasgow/jaf.html
 Requires:	jre >= 1.1.6
