@@ -1,11 +1,11 @@
-Summary: 	JavaBeans (tm) Activation Framework
+Summary:	JavaBeans (tm) Activation Framework
 Summary(pl):	¦rodowisko aktywacyjne JavaBeans(tm)
 Name:		jaf
 Version:	1.0.1
 Release:	1
 License:	Read LICENSE.txt!
 Group:		Development/Languages/Java
-Source0:	jaf1_0_1.zip
+Source0:	%{name}1_0_1.zip
 URL:		http://java.sun.com/products/javabeans/glasgow/jaf.html
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
