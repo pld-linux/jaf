@@ -6,6 +6,7 @@ Release:	1
 License:	restricted (see LICENSE.txt)
 Group:		Development/Languages/Java
 Source0:	%{name}1_0_1.zip
+NoSource:	0
 URL:		http://java.sun.com/products/javabeans/glasgow/jaf.html
 Requires:	jre >= 1.1.6
 BuildArch:	noarch
