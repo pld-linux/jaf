@@ -5,8 +5,6 @@ Version:	1.0.1
 Release:	1
 License:	Read LICENSE.txt!
 Group:		Development/Languages/Java
-Group(de):	Entwicklung/Sprachen/Java
-Group(pl):	Programowanie/Jêzyki/Java
 Source0:	jaf1_0_1.zip
 URL:		http://java.sun.com/products/javabeans/glasgow/jaf.html
 BuildArch:	noarch
@@ -24,8 +22,6 @@ JavaBeans (tm) Activation Framework.
 Summary:	JavaBeans (tm) Activation Framework documentation
 Summary(pl):	Dokumentacja do JavaBeans(tm) Activation Framework
 Group:		Development/Languages/Java
-Group(de):	Entwicklung/Sprachen/Java
-Group(pl):	Programowanie/Jêzyki/Java
 
 %description doc
 JavaBeans (tm) Activation Framework documentation.
