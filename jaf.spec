@@ -2,12 +2,12 @@ Summary:	JavaBeans (tm) Activation Framework
 Summary(pl):	¦rodowisko aktywacyjne JavaBeans(tm)
 Name:		jaf
 Version:	1.0.2
-Release:	2
+Release:	3
 License:	restricted (see LICENSE.txt)
 Group:		Development/Languages/Java
 # download through froms from URL
-Source0:	%{name}-1_0_2-upd.zip
-# NoSource0-md5:	d124f4f18985768dab71e61f82206713
+Source0:	%{name}-%(echo %{version} | tr . _)-upd2.zip
+# NoSource0-md5:	db4ce2211ab4fa669e5aa3a42bdbdfe7
 NoSource:	0
 URL:		http://java.sun.com/products/javabeans/glasgow/jaf.html
 Requires:	jre >= 1.1.6
