@@ -1,5 +1,5 @@
 Summary:	JavaBeans (tm) Activation Framework
-Summary(pl):	¦rodowisko aktywacyjne JavaBeans(tm)
+Summary(pl.UTF-8):   Åšrodowisko aktywacyjne JavaBeans(tm)
 Name:		jaf
 Version:	1.1
 Release:	1
@@ -19,19 +19,19 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 JavaBeans (tm) Activation Framework.
 
-%description -l pl
-¦rodowisko aktywacyjne JavaBeans(tm) Activation Framework.
+%description -l pl.UTF-8
+Åšrodowisko aktywacyjne JavaBeans(tm) Activation Framework.
 
 %package doc
 Summary:	JavaBeans (tm) Activation Framework documentation
-Summary(pl):	Dokumentacja do JavaBeans(tm) Activation Framework
+Summary(pl.UTF-8):   Dokumentacja do JavaBeans(tm) Activation Framework
 Group:		Development/Languages/Java
 
 %description doc
 JavaBeans (tm) Activation Framework documentation.
 
-%description doc -l pl
-Dokumentacja do ¶rodowiska JavaBeans(tm) Activation Framework.
+%description doc -l pl.UTF-8
+Dokumentacja do Å›rodowiska JavaBeans(tm) Activation Framework.
 
 %prep
 %setup -q
