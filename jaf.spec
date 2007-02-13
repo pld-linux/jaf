@@ -1,5 +1,5 @@
 Summary:	JavaBeans (tm) Activation Framework
-Summary(pl.UTF-8):   Środowisko aktywacyjne JavaBeans(tm)
+Summary(pl.UTF-8):	Środowisko aktywacyjne JavaBeans(tm)
 Name:		jaf
 Version:	1.1
 Release:	1
@@ -24,7 +24,7 @@ JavaBeans (tm) Activation Framework.
 
 %package doc
 Summary:	JavaBeans (tm) Activation Framework documentation
-Summary(pl.UTF-8):   Dokumentacja do JavaBeans(tm) Activation Framework
+Summary(pl.UTF-8):	Dokumentacja do JavaBeans(tm) Activation Framework
 Group:		Development/Languages/Java
 
 %description doc
