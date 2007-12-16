@@ -1,9 +1,6 @@
 # NOTE:
 #   The JavaBeans Activation Framework 1.1.1 final release is included with the
 #   Java SE 6 release and is also available separately.
-#
-# TODO
-# - recheck the license, perhaps it's more relaxed now.
 %include	/usr/lib/rpm/macros.java
 Summary:	JavaBeans (tm) Activation Framework
 Summary(pl.UTF-8):	Środowisko aktywacyjne JavaBeans(tm)
@@ -12,7 +9,7 @@ Version:	1.1.1
 Release:	1
 License:	restricted (see LICENSE.txt)
 Group:		Development/Languages/Java
-# download through froms from URL
+# download through forms from http://java.sun.com/products/javabeans/jaf/downloads/index.html#download
 Source0:	%{name}-%(echo %{version} | tr . _).zip
 # NoSource0-md5:	e55a9e5a44eb55fa588d1020544226f1
 NoSource:	0
@@ -91,8 +88,10 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc LICENSE.txt RELNOTES.txt README.txt
-%{_javadir}/*.jar
+%doc LICENSE.txt RELNOTES.txt README.txt distributionREADME.txt
+%{_javadir}/activation.jar
+%{_javadir}/jaf.jar
+%{_javadir}/jaf-%{version}.jar
 
 %files doc
 %defattr(644,root,root,755)
