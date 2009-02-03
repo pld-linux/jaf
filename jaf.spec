@@ -1,6 +1,8 @@
 # NOTE:
-#   The JavaBeans Activation Framework 1.1.1 final release is included with the
-#   Java SE 6 release and is also available separately.
+#   - The JavaBeans Activation Framework 1.1.1 final release is included with the
+#     Java SE 6 release and is also available separately.
+#   - There is an alternative, free implementation of java-activation. See
+#     java-gnu-activation.spec
 %include	/usr/lib/rpm/macros.java
 Summary:	JavaBeans (tm) Activation Framework
 Summary(pl.UTF-8):	Środowisko aktywacyjne JavaBeans(tm)
@@ -18,7 +20,7 @@ BuildRequires:	jpackage-utils
 BuildRequires:	rpm-javaprov
 BuildRequires:	rpmbuild(macros) >= 1.300
 Requires:	jpackage-utils
-Requires:	jre >= 1.1.6
+Provides:	java-activation
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
