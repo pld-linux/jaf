@@ -19,6 +19,7 @@ URL:		http://java.sun.com/products/javabeans/jaf/index.jsp
 BuildRequires:	jpackage-utils
 BuildRequires:	rpm-javaprov
 BuildRequires:	rpmbuild(macros) >= 1.300
+BuildRequires:	unzip
 Requires:	jpackage-utils
 Provides:	java-activation
 BuildArch:	noarch
