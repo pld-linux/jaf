@@ -3,7 +3,6 @@
 #     Java SE 6 release and is also available separately.
 #   - There is an alternative, free implementation of java-activation. See
 #     java-gnu-activation.spec
-%include	/usr/lib/rpm/macros.java
 Summary:	JavaBeans (tm) Activation Framework
 Summary(pl.UTF-8):	Środowisko aktywacyjne JavaBeans(tm)
 Name:		jaf
